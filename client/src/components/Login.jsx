@@ -18,7 +18,7 @@ function Login() {
     });
 
     const data = await response.json();
-    if (response.ok) {
+    if (response.ok) {Implemented login form and connected with backend API
       setMessage('Login successful');
     } else {
       setMessage(data.message);
